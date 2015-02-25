@@ -21,13 +21,13 @@ namespace VisualConsole {
 	    HANDLE hIn;
         CONSOLE_SCREEN_BUFFER_INFO bInfo;
         COORD cBuffer;
-        SMALL_RECT rSize;
+        SMALL_RECT rWindowSize;
         string sTitle;
 
-        bool PreLoad();
+        bool PreLoad(int, int);
 
     public:
-        Window();
+        Window(int, int);
 
     };
 
