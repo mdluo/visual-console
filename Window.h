@@ -28,7 +28,10 @@ namespace VisualConsole {
 
     public:
         Window(int, int);
-
+		bool SetBuffer(COORD);
+		bool SetWindowSize(SMALL_RECT);
+		string GetTitle();
+		bool SetTitle(string);
     };
 
 }

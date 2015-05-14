@@ -37,3 +37,15 @@ bool Window::PreLoad(int x, int y)
 
     return bSuccess;
 }
+
+bool Window::SetBuffer(COORD cBuffer)
+{
+	this->cBuffer = cBuffer;
+	return SetConsoleScreenBufferSize(hOut, cBuffer) != 0;
+}
+
+bool Window::SetWindowSize(SMALL_RECT rWindowSize)
+{
+	this->rWindowSize = rWindowSize;
+	return SetConsoleWindowInfo(hOut, true, &rWindowSize) != 0;
+}
