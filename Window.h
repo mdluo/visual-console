@@ -1,7 +1,7 @@
 
 //  Project:    VisualConsole
-//  Version:    0.1.0
 //  File:       Window.h
+//  Author:		Mingdong Luo
 //  Date:       2015-02-25
 
 #ifndef _VISUALCONSOLE_WINDOW_H_

@@ -1,7 +1,7 @@
 
 //  Project:    VisualConsole
-//  Version:    0.1.0
 //  File:       Window.cpp
+//  Author:		Mingdong Luo
 //  Date:       2015-02-25
 
 #include "StdAfx.h"
