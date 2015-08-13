@@ -11,10 +11,7 @@ using namespace VisualConsole;
 
 Window::Window(int x, int y)
 {
-    if (PreLoad(x, y))
-    {
-
-    }
+    PreLoad(x, y);
 }
 
 bool Window::PreLoad(int x, int y)
